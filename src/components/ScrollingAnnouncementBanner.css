@@ -1,0 +1,32 @@
+/* The container that hides the overflowing text */
+.banner-container {
+  width: 100%;
+  overflow: hidden; /* Crucial for hiding text outside the box */
+  background-color: #f0f0f0; /* Example background */
+}
+
+.scrolling-text {
+  /* No need to set width, it will be based on content */
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 20s linear infinite;
+  
+  /* Add this for GPU acceleration */
+  will-change: transform;
+
+  /* Styling */
+  height: 40px;
+  line-height: 40px;
+  /* margin-top is for positioning, adjust as needed */
+  margin-top: -20px;
+}
+
+/* Keyframes for animation */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%); /* Start off-screen to the right */
+  }
+  100% {
+    transform: translateX(-100%); /* End off-screen to the left */
+  }
+}
