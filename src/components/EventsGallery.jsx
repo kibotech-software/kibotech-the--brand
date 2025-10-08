@@ -26,7 +26,7 @@ const albums = [
         images: [
             {src: "/assets/ace event 2.jpg", title: "Interactive Workshop", description: "Students engaging in a hands-on coding workshop with our industry mentors."},
             {src: "/assets/ace event 3.jpg", title: "Leadership Training", description: "An interactive session focused on developing leadership and soft skills."},
-            {src: "/assets/ace event 5.jpg ", title: "Project Planning", description: "A team of students brainstorming and planning thgeir project on a whiteboard."},
+            {src: "/assets/ace event 5.jpg ", title: "Project Planning", description: "A team of students brainstorming and planning their project on a whiteboard."},
             {src: "/assets/ace event 6.jpg", title: "Late Night Coding", description: "Dedicated students working hard to meet their project deadlines."},
         ]
     },
