@@ -41,9 +41,10 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
 
       {/* ✅ Announcement Banner inside Hero */}
-      <div className="relative z-20">
-        <ScrollingAnnouncementBanner text="📢 National Seminar Tech Summit Hyderabad 2025 | 29 October 2025 | By Kibotech" />
-      </div>
+     <div className="relative z-20">
+  <ScrollingAnnouncementBanner text="📢 National Seminar Tech Summit Hyderabad 2025 | 29 October 2025 | By Kibotech" />
+</div>
+
 
       {/* Hero Content */}
       <div className="container mx-auto px-6 relative z-30 text-center">
