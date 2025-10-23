@@ -69,7 +69,7 @@ const Footer = () => (
                        target="_blank" 
                        rel="noopener noreferrer" 
                        className="text-gray-400 hover:text-white hover:underline">
-                        2nd Floor, Sai Towers, beside Sri Chaitanya School, Adarsh Nagar, Hyderabad, Telangana 500048
+                        Corporate Services Building , above Dominos, Opp Telugu Academy Building, Himayatnagar, Hyderabad,500029.
                     </a>
                 </div>
             </div>

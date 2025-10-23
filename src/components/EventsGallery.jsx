@@ -60,6 +60,26 @@ const albums = [
             {src: "/assets/k inaugration 6.jpg", title: "Poster Presentations", description: "Showcasing project details through a poster presentation."},
         ]
     },
+    {
+        title:"the St pauls degree and college",
+        coverSrc:"/assets/st pauls 4.jpg",
+        images:[
+            {src: "/assets/st pauls 1.png", title: "Code. Create. Innovate — The Ultimate College Tech Event", description: "Dive into the world of technology and coding with hands-on sessions, fun competitions, and a chance to showcase your tech talent!."},
+            {src: "/assets/st pauls 2.png", title: "Hack the Future: A Celebration of Code & Creativity", description: "Experience the thrill of coding, innovation, and collaboration as you build, compete, and create the future of technology!."},
+            {src: "/assets/st pauls 3.png", title: "TechSpark: Fueling Innovation", description: "Unlock your potential in the digital world with engaging sessions, creative problem-solving, and hands-on coding fun!."},
+            {src: "/assets/st pauls.png", title: "ByteFest: The Ultimate Tech", description: "Immerse yourself in tech-driven excitement — from live coding to innovative challenges that spark your imagination!."},
+        ]
+    },
+    {
+        title:"The Press Confrence",
+        coverSrc:"/assets/press confrence 1.jpg",
+        images:[
+            {src: "/assets/press confrence 2.jpg", title: "TechPress 2025: Inspiring Innovation, Empowering Ideas", description: "successfully hosted a dynamic press conference highlighting upcoming tech initiatives, coding events, and innovation-driven projects.."},
+            {src: "/assets/press confrence 3.jpg", title: "Unveiling the Future of Technology — Press Conference Highlights", description: "A vibrant press meet showcased the vision of nurturing young tech talent and fostering a culture of innovation and digital growth.."},
+            {src: "/assets/press confrence 4.jpg", title: "Campus Press Meet Marks the Beginning of a New Tech Era", description: "The event brought together faculty, students, and media to discuss the college’s latest advancements in technology and coding programs.."},
+            {src: "/assets/press confrence 6.jpg", title: "Tech Leaders and Innovators Gather for an Insightful Press Conference", description: "With enthusiasm and insight, the press meet highlighted how the college is paving the way for the next generation of tech leaders.."},
+        ]
+    },
 
     {
         title: "The Upcoming Events ",
