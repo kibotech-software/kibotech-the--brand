@@ -24,7 +24,7 @@ const albums = [
         title: "Ace 2.O NIMINS",
         coverSrc: "/assets/ace event 1.jpg",
         images: [
-            {src: "/assets/ace event 2.jpg", title: "Interactive Workshop", description: "Students engaging in a hands-on coding workshop with our industry mentors."},
+            {src: "/assets/ace event 2.jpg", title: "Interactive Workshop", description: "Workshop in NIMINS Mumbai ."},
             {src: "/assets/ace event 3.jpg", title: "Leadership Training", description: "An interactive session focused on developing leadership and soft skills."},
             {src: "/assets/ace event 5.jpg ", title: "Project Planning", description: "A team of students brainstorming and planning their project on a whiteboard."},
             {src: "/assets/ace event 6.jpg", title: "Late Night Coding", description: "Dedicated students working hard to meet their project deadlines."},
@@ -34,10 +34,10 @@ const albums = [
         title: "DEET Telangana",
         coverSrc: "/assets/deet 2.JPG",
         images: [
-            {src: "/assets/deet 1.JPG", title: "Winners Announcement", description: "Celebrating the innovative solutions developed by students during our annual hackathon."},
-            {src: "/assets/deet 4.JPG", title: "Intense Coding", description: "A participant deeply focused on their code during the hackathon."},
-            {src: "/assets/deet 5.JPG", title: "Team Pitch", description: "A team presenting their hackathon project to the judges."},
-            {src: "/assets/deet 6.JPG", title: "Judges Panel", description: "The panel of industry experts listening intently to a project pitch."},
+            {src: "/assets/deet 1.JPG", title: "DEET Hiring", description: "Conducted hiring for Kibotech using DEET Platform."},
+            {src: "/assets/deet 4.JPG", title: "Speech from Tech Lead", description: "Telling about Exposure in Tech"},
+            {src: "/assets/deet 5.JPG", title: "Gather", description: "How is the Process looks like."},
+            {src: "/assets/deet 6.JPG", title: "Students Interaction", description: "Students Interaction with the Mentors"},
         ]
     },
     {
@@ -46,18 +46,18 @@ const albums = [
         images: [
             {src: "/assets/avinesh event 1.jpg", title: "Expert Industry Talk", description: "An engaging session with a guest speaker from a leading tech company."},
              {src: "/assets/avinesh event 3.jpg", title: "Audience Q&A", description: "Students asking insightful questions during the Q&A session."},
-             {src: "/assets/avinesh event 4.png", title: "Keynote Speaker", description: "The keynote speaker delivering a powerful and inspiring message."},
-             {src: "/assets/avinesh event 5.png", title: "Panel Discussion", description: "A lively panel discussion with experts from various fields."},
+            //  {src: "/assets/avinesh event 4.png", title: "Keynote Speaker", description: "The keynote speaker delivering a powerful and inspiring message."},
+            //  {src: "/assets/avinesh event 5.png", title: "Panel Discussion", description: "A lively panel discussion with experts from various fields."},
         ]
     },
     {
         title: "The 4i Seminar",
         coverSrc: "/assets/k inaugration 1.jpg",
         images: [
-            {src: "/assets/k inaugration 2.jpg", title: "Final Project Demonstrations", description: "Students presenting their final projects and real-world deliverables."},
-            {src: "/assets/k inaugration 3.jpg", title: "Live App Demo", description: "A student demonstrating a live application they built."},
-            {src: "/assets/k inaugration 4.jpg", title: "Receiving Feedback", description: "Getting valuable feedback from instructors and peers."},
-            {src: "/assets/k inaugration 6.jpg", title: "Poster Presentations", description: "Showcasing project details through a poster presentation."},
+            {src: "/assets/k inaugration 2.jpg", title: "Inaugration By KiboTech", description: "Students will be learning from the Tech leaders."},
+            {src: "/assets/k inaugration 3.jpg", title: "Speech by Anand Mittal", description: "He is a CHRO for the Sreenidhi colleges"},
+            {src: "/assets/k inaugration 4.jpg", title: "Group Photo", description: "A Great experiance for the students."},
+            // {src: "/assets/k inaugration 6.jpg", title: "Poster Presentations", description: "Showcasing project details through a poster presentation."},
         ]
     },
     {
