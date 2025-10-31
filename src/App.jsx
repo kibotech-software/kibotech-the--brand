@@ -26,6 +26,7 @@ function App() {
     <div className="bg-white">
       <Header />
       <main>
+        <p>hero</p>
         <ScrollingAnnouncementBanner />
         <HeroSection />
         <ClientLogosSection />
