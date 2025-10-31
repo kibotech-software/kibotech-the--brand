@@ -1,47 +1,40 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useScrollAnimation } from './hooks/useScrollAnimation';
-import './index.css'; // Import global styles
+import './index.css';
 
-// Import all your components
-
+// Layout Components
 import Header from './components/Header';
-import ScrollingAnnouncementBanner from './components/ScrollingAnnouncementBanner';
-import HeroSection from './components/HeroSection';
-import ClientLogosSection from './components/ClientLogosSection';
-import ServicesSection from './components/ServicesSection';
-import MissionVisionSection from './components/MissionVisionSection';
-import ProcessSection from './components/ProcessSection';
-import TechStackSection from './components/TechStackSection';
-import TeamSection from './components/TeamSection';
-import StatisticsSection from './components/StatisticsSection';
-import EventsGallery from './components/EventsGallery';
-import FaqSection from './components/FaqSection';
-import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
+
+// Pages
+import HomePage from './pages/HomePage';
+import ServicesPage from './pages/ServicesPage';
+import TeamPage from './pages/TeamPage';
+import EventsPage from './pages/EventsPage';
+import ContactPage from './pages/ContactPage';
+// import NotFoundPage from './pages/NotFoundPage'; // optional
 
 function App() {
   useScrollAnimation();
 
   return (
-    <div className="bg-white">
-      <Header />
-      <main>
-        <p>hero</p>
-        <ScrollingAnnouncementBanner />
-        <HeroSection />
-        <ClientLogosSection />
-        <ServicesSection />
-        <MissionVisionSection />
-        <ProcessSection />
-        <TechStackSection />
-        <TeamSection />
-        <StatisticsSection />
-        <EventsGallery />
-        <FaqSection />
-        <ContactSection />
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <div className="bg-white min-h-screen flex flex-col">
+        <Header />
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/services" element={<ServicesPage />} />
+            <Route path="/team" element={<TeamPage />} />
+            <Route path="/events" element={<EventsPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+            {/* <Route path="*" element={<NotFoundPage />} /> */}
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
