@@ -3,7 +3,7 @@ import Icon from './Icon';
 
 const TeamSection = () => {
     const teamMembers = [
-        { name: "Dr. Sara Shuttari", title: "Executive Director", img: "/assets/t2.jpg" },
+        { name: "Dr. Sara Shuttari", title: "Executive Director", img: "assets/t2.jpg" },
         { name: "Syed Rashid Shuttari", title: "Managing Director", img: "/assets/t1.jpg" },
         // { name: "G. Krishna Raju", title: "Chief Technology Officer", img: "https://placehold.co/400x400/c7f9cc/333333?text=G.KR" },
     ];
