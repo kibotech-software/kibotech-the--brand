@@ -16,10 +16,11 @@ import ContactPage from './pages/ContactPage';
 // import NotFoundPage from './pages/NotFoundPage'; // optional
 
 function App() {
-  useScrollAnimation();
-
   return (
     <Router>
+      {/* ✅ Hook is now inside the Router */}
+      <ScrollAnimationWrapper />
+
       <div className="bg-white min-h-screen flex flex-col">
         <Header />
         <main className="flex-grow">
@@ -29,7 +30,6 @@ function App() {
             <Route path="/team" element={<TeamPage />} />
             <Route path="/events" element={<EventsPage />} />
             <Route path="/contact" element={<ContactPage />} />
-            {/* <Route path="*" element={<NotFoundPage />} /> */}
           </Routes>
         </main>
         <Footer />
@@ -37,5 +37,12 @@ function App() {
     </Router>
   );
 }
+
+// Create a small component that runs the hook safely
+const ScrollAnimationWrapper = () => {
+  useScrollAnimation();
+  return null;
+};
+
 
 export default App;
