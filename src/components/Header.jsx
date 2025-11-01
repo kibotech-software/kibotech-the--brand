@@ -123,3 +123,4 @@ const Header = () => {
 };
 
 export default Header;
+// how to add multile pages links in the nav bar for for each section as a dropdown 

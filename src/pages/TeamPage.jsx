@@ -6,6 +6,7 @@ const TeamPage = () => {
     <div>
         
       <TeamSection/>
+      
     </div>
   )
 }

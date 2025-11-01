@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
+import ServicesSection from "../components/ServicesSection";
 
-const servicesPage = () => {
+const ServicesPage = () => {
   return (
-    <div>
-      
+    <div className="bg-gray-50 min-h-screen">
+      <ServicesSection />
     </div>
-  )
-}
+  );
+};
 
-export default servicesPage
-
+export default ServicesPage;
