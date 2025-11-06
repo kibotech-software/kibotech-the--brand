@@ -16,12 +16,12 @@ const HeroSection = () => {
   useEffect(() => {
     const slideInterval = setInterval(() => {
       setCurrentSlide(prev => (prev + 1) % slides.length);
-    }, 3000); // 3s interval
+    }, 3000);
     return () => clearInterval(slideInterval);
   }, [slides.length]);
 
   return (
-    <section id="home" className="hero-section pt-40 pb-24 md:pt-48 md:pb-32 relative">
+    <section id="home" className="relative overflow-hidden">
       <AnimatedHeroBackground />
 
       {/* Background Slideshow */}
@@ -37,28 +37,28 @@ const HeroSection = () => {
         />
       ))}
 
-      {/* Overlay */}
+      {/* Dark overlay for contrast */}
       <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
 
-      {/* ✅ Announcement Banner inside Hero */}
-     <div className="relative z-20">
-  <ScrollingAnnouncementBanner text="📢 National Seminar Tech Summit Hyderabad 2025 | 29 October 2025 | By Kibotech" />
-</div>
-
+      {/* ✅ Integrated Announcement Banner */}
+      <div className="relative z-20">
+        <ScrollingAnnouncementBanner text="📢 Azad Tech-Expo 2025 | 10 November 2025 | Organized By MANUU In Collaboration with Kibotech" />
+      </div>
 
       {/* Hero Content */}
-      <div className="container mx-auto px-6 relative z-30 text-center">
-        <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-4 leading-tight fade-in">
-          Specialized in Building and Delivering Software <span className="text-cyan-300">Projects.</span>
+      <div className="container mx-auto px-6 relative z-30 text-center pt-32 pb-24 md:pt-44 md:pb-32">
+        <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-4 leading-tight">
+          Specialized in Building and Delivering Software <span className="text-blue-400">Projects.</span>
         </h1>
-        <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-3xl mx-auto fade-in" style={{ transitionDelay: '150ms' }}>
+        <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-3xl mx-auto">
           We Build and Deliver High-Quality Software Projects.
         </p>
-        <div className="fade-in" style={{ transitionDelay: '300ms' }}>
-          <a href="#contact" className="btn-primary text-white px-10 py-4 rounded-full text-lg font-semibold hover:bg-blue-600 transition duration-300 shadow-xl transform hover:scale-105">
-            Contact Us
-          </a>
-        </div>
+        <a
+          href="#contact"
+          className="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-full text-lg font-semibold transition duration-300 shadow-xl transform hover:scale-105"
+        >
+          Contact Us
+        </a>
       </div>
     </section>
   );

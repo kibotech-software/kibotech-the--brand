@@ -1,6 +1,6 @@
 import React from 'react'
 
-const servicesPage = () => {
+const ServicesPage = () => {
   return (
     <div>
       
@@ -8,5 +8,4 @@ const servicesPage = () => {
   )
 }
 
-export default servicesPage
-
+export default ServicesPage

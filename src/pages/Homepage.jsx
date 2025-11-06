@@ -16,7 +16,7 @@ import ContactSection from '../components/ContactSection';
 const HomePage = () => {
   return (
     <>
-      <ScrollingAnnouncementBanner />
+      {/* <ScrollingAnnouncementBanner /> */}
       <HeroSection />
       <ClientLogosSection />
       <ServicesSection />
