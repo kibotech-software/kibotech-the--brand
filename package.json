@@ -15,7 +15,13 @@
     "lucide-react": "^0.548.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+<<<<<<< HEAD
     "react-router-dom": "^7.9.5"
+=======
+    "react-router-dom": "^7.9.5",
+    "router-dom": "^3.0.3",
+    "three": "^0.180.0"
+>>>>>>> e116aa8e97904b69ea8fe80d8a403e3fbd0f3ec9
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",

@@ -6,6 +6,10 @@ const TeamPage = () => {
     <div>
         
       <TeamSection/>
+<<<<<<< HEAD
+=======
+      
+>>>>>>> e116aa8e97904b69ea8fe80d8a403e3fbd0f3ec9
     </div>
   )
 }
